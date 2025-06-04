@@ -69,13 +69,3 @@ slowpoke.feed()
 ribbit_downey_jr = Frog("Ribbit Downey Jr.", "bullfrog", "Live Bugs")
 print(ribbit_downey_jr)
 ribbit_downey_jr.feed()
-
-#Sample Output 
-# animals = [
-#     miss_fuzz, mr_shrek, tiger_woods, wooly_nelson, ham_solo,
-#     danger_noodle, mr_slinky, spaghetti, leon, iguana_jones,
-#     quackmire, gill_bates, wavey, slowpoke, ribbit_downey_jr
-# ]
-
-# for animal in animals:
-#     print(f"{animal.name} the {animal.species} was added on {animal.date_added}.")
