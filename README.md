@@ -1,4 +1,5 @@
 Petting Zoo Python Project Summary
+
 This project was designed to help learn the basics of Python classes and object-oriented programming. The main features and concepts practiced include:
 
 - Class Creation: Defined multiple animal classes (e.g., Llama, Donkey, Frog) in separate modules, each representing a different type of animal.
