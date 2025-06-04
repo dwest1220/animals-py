@@ -22,14 +22,14 @@ class Goat:
         self.walking = True
 
 class Sheep:
-    def __init__(self, name, species="merino sheep"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
 
 class Pig:
-    def __init__(self, name, species="pot-bellied pig"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
@@ -37,35 +37,35 @@ class Pig:
 
 # Glass Tank Animals
 class Copperhead:
-    def __init__(self, name, species="copperhead snake"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
 
 class RatSnake:
-    def __init__(self, name, species="rat snake"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
 
 class CornSnake:
-    def __init__(self, name, species="corn snake"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
 
 class Gecko:
-    def __init__(self, name, species="leopard gecko"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.slithering = True
 
 class Iguana:
-    def __init__(self, name, species="green iguana"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
@@ -73,57 +73,58 @@ class Iguana:
 
 # Pond Animals
 class Mallard:
-    def __init__(self, name, species="mallard duck"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 class Goldfish:
-    def __init__(self, name, species="goldfish"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 class Koi:
-    def __init__(self, name, species="koi carp"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 class Turtle:
-    def __init__(self, name, species="red-eared slider"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 class Frog:
-    def __init__(self, name, species="bullfrog"):
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.swimming = True
 
+# Instances
 miss_fuzz = Llama("Miss Fuzz", "domestic llama")
-mr_shrek = Donkey("mr shrek", "domestic donkey")
-tiger_woods = Goat("tiger woods", "pygmy goat")
-wooly_nelson = Sheep("Wooly Nelson")
-ham_solo = Pig("Ham Solo")
+mr_shrek = Donkey("Mr. Shrek", "domestic donkey")
+tiger_woods = Goat("Tiger Woods", "pygmy goat")
+wooly_nelson = Sheep("Wooly Nelson", "merino sheep")
+ham_solo = Pig("Ham Solo", "pot-bellied pig")
 
-danger_noodle = Copperhead("Danger Noodle")
-mr_slinky = RatSnake("Mr. Slinky")
-spaghetti = CornSnake("Spaghetti")
-leon = Gecko("Leon")
-iguana_jones = Iguana("Iguana Jones")
+danger_noodle = Copperhead("Danger Noodle", "copperhead snake")
+mr_slinky = RatSnake("Mr. Slinky", "rat snake")
+spaghetti = CornSnake("Spaghetti", "corn snake")
+leon = Gecko("Leon", "leopard gecko")
+iguana_jones = Iguana("Iguana Jones", "green iguana")
 
-quackmire = Mallard("Quackmire")
-gill_bates = Goldfish("Gill Bates")
-wavey = Koi("Wavey")
-slowpoke = Turtle("Slowpoke")
-ribbit_downey_jr = Frog("Ribbit Downey Jr.")
+quackmire = Mallard("Quackmire", "mallard duck")
+gill_bates = Goldfish("Gill Bates", "goldfish")
+wavey = Koi("Wavey", "koi carp")
+slowpoke = Turtle("Slowpoke", "red-eared slider")
+ribbit_downey_jr = Frog("Ribbit Downey Jr.", "bullfrog")
 
 animals = [
     miss_fuzz, mr_shrek, tiger_woods, wooly_nelson, ham_solo,
